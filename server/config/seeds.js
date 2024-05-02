@@ -8,131 +8,128 @@ db.once('open', async () => {
   await cleanDB('User', 'users');
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    { name: 'Ice Cream' },
+    { name: 'Apparel' }
   ]);
 
   console.log('categories seeded');
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Vanilla Pint',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'A luscious vanilla bean ice cream in a 16 oz container',
       image: 'cookie-tin.jpg',
       category: categories[0]._id,
-      price: 2.99,
-      quantity: 500
+      price: 7.99,
+      quantity: 100
     },
     {
-      name: 'Canned Coffee',
+      name: 'Vanilla Ice Cream Bar',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Our vanilla bean ice cream in handy-dandy individually wrapped bar form. Package of 6.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
-    },
-    {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
-      description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
-    },
-    {
-      name: 'Handmade Soap',
-      category: categories[1]._id,
-      description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
+      price: 14.99,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
-      category: categories[1]._id,
+      name: 'Vanilla Ice Cream Sandwich',
+      category: categories[0]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
-      quantity: 100
+        'Our vanilla bean ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
+      image: 'toilet-paper.jpg',
+      price: 16.99,
+      quantity: 50
     },
     {
-      name: 'Camera',
-      category: categories[2]._id,
+      name: 'Chocolate Pint',
+      category: categories[0]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
-      price: 399.99,
-      quantity: 30
-    },
-    {
-      name: 'Tablet',
-      category: categories[2]._id,
-      description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
-    },
-    {
-      name: 'Tales at Bedtime',
-      category: categories[3]._id,
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
-      quantity: 100
-    },
-    {
-      name: 'Spinning Top',
-      category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
-    },
-    {
-      name: 'Set of Plastic Horses',
-      category: categories[4]._id,
-      description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
-      category: categories[4]._id,
-      description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
+        'A decadent Dutch chocolate ice cream in a 16 oz container',
+      image: 'soap.jpg',
       price: 7.99,
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
+      name: 'Chocolate Ice Cream Bar',
+      category: categories[0]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'Our Dutch chocolate ice cream in handy-dandy individually wrapped bar form. Package of 6.',
+      image: 'wooden-spoons.jpg',
+      price: 14.99,
+      quantity: 50
+    },
+    {
+      name: 'Chocolate Ice Cream Sandwich',
+      category: categories[0]._id,
+      description:
+        'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
+      image: 'camera.jpg',
+      price: 16.99,
+      quantity: 50
+    },
+    {
+      name: 'Strawberry Pint',
+      category: categories[0]._id,
+      description:
+        'A fresh strawberry ice cream in a 16 oz container. Made with real strawberries!',
+      image: 'tablet.jpg',
+      price: 7.99,
+      quantity: 100
+    },
+    {
+      name: 'Strawberry Ice Cream Bar',
+      category: categories[0]._id,
+      description:
+        'Our fresh strawberry ice cream in handy-dandy individually wrapped bar form. Package of 6.',
+      image: 'bedtime-book.jpg',
+      price: 14.99,
+      quantity: 50
+    },
+    {
+      name: 'Strawberry Ice Cream Sandwich',
+      category: categories[0]._id,
+      description: 'Our fresh strawberry ice cream sandwiched between two graham cracker cookies. Package of 6.',
+      image: 'spinning-top.jpg',
+      price: 16.99,
+      quantity: 50
+    },
+    {
+      name: 'Great Licks Shirt',
+      category: categories[1]._id,
+      description:
+        'Show off your Great Licks pride with our fashionable boxy tee. Printed on Gildan shirts.',
+      image: 'plastic-horses.jpg',
+      price: 18.99,
+      quantity: 100
+    },
+    {
+      name: 'Great Licks ball cap',
+      category: categories[1]._id,
+      description:
+        'Represent Great Licks with a stylish ball cap.',
+      image: 'teddy-bear.jpg',
+      price: 15.99,
+      quantity: 100
+    },
+    {
+      name: 'Great Licks Silver Spoon',
+      category: categories[1]._id,
+      description:
+        'You weren\'t born with a silver spoon in your mouth, so get this one as soon as you can.',
       image: 'alphabet-blocks.jpg',
       price: 9.99,
-      quantity: 600
+      quantity: 50
     }
   ]);
 
   console.log('products seeded');
 
   await User.create({
-    firstName: 'Pamela',
-    lastName: 'Washington',
-    email: 'pamela@testmail.com',
+    firstName: 'Jessica',
+    lastName: 'Jones',
+    email: 'jessica@testmail.com',
     password: 'password12345',
     orders: [
       {
@@ -142,9 +139,9 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
+    firstName: 'Dustin',
+    lastName: 'Long',
+    email: 'dlong@testmail.com',
     password: 'password12345'
   });
 
