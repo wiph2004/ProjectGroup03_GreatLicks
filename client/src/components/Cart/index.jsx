@@ -7,6 +7,7 @@ import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 import { useStoreContext } from '../../utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
+import 'semantic-ui-css/semantic.min.css';
 import './style.css';
 
 // stripePromise returns a promise with the stripe object as soon as the Stripe package loads
@@ -89,7 +90,7 @@ const Cart = () => {
 
             {/* Check to see if the user is logged in. If so render a button to check out */}
             {Auth.loggedIn() ? (
-              <button onClick={submitCheckout}>Checkout</button>
+              <button class="ui button" onClick={submitCheckout}>Checkout</button>
             ) : (
               <span>(log in to check out)</span>
             )}

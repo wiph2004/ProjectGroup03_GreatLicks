@@ -19,7 +19,7 @@ db.once('open', async () => {
       name: 'Vanilla Pint',
       description:
         'A luscious vanilla bean ice cream in a 16 oz container',
-      image: 'cookie-tin.jpg',
+      image: 'pinticecream.jpeg',
       category: categories[0]._id,
       price: 7.99,
       quantity: 100
@@ -28,7 +28,7 @@ db.once('open', async () => {
       name: 'Vanilla Ice Cream Bar',
       description:
         'Our vanilla bean ice cream in handy-dandy individually wrapped bar form. Package of 6.',
-      image: 'canned-coffee.jpg',
+      image: 'vanilla-bar.png',
       category: categories[0]._id,
       price: 14.99,
       quantity: 50
@@ -38,7 +38,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our vanilla bean ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
-      image: 'toilet-paper.jpg',
+      image: 'vanilla-sandwich.jpg',
       price: 16.99,
       quantity: 50
     },
@@ -47,7 +47,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A decadent Dutch chocolate ice cream in a 16 oz container',
-      image: 'soap.jpg',
+      image: 'pinticecream.jpeg',
       price: 7.99,
       quantity: 100
     },
@@ -56,7 +56,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our Dutch chocolate ice cream in handy-dandy individually wrapped bar form. Package of 6.',
-      image: 'wooden-spoons.jpg',
+      image: 'chocolateicecreambar.jpg',
       price: 14.99,
       quantity: 50
     },
@@ -65,7 +65,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
-      image: 'camera.jpg',
+      image: 'chocolatesandwich.JPG',
       price: 16.99,
       quantity: 50
     },
@@ -74,7 +74,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A fresh strawberry ice cream in a 16 oz container. Made with real strawberries!',
-      image: 'tablet.jpg',
+      image: 'pinticecream.jpeg',
       price: 7.99,
       quantity: 100
     },
@@ -83,7 +83,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our fresh strawberry ice cream in handy-dandy individually wrapped bar form. Package of 6.',
-      image: 'bedtime-book.jpg',
+      image: 'strawberrybar.jpeg',
       price: 14.99,
       quantity: 50
     },
@@ -91,7 +91,7 @@ db.once('open', async () => {
       name: 'Strawberry Ice Cream Sandwich',
       category: categories[0]._id,
       description: 'Our fresh strawberry ice cream sandwiched between two graham cracker cookies. Package of 6.',
-      image: 'spinning-top.jpg',
+      image: 'strawberrysandwich.jpg',
       price: 16.99,
       quantity: 50
     },
