@@ -1,5 +1,7 @@
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import logo from "../../assets/Logo200.png";
+import "./nav.css"
 
 function Nav() {
 
@@ -41,10 +43,7 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h1>
-        <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          -Shop-Shop
-        </Link>
+        <img src={logo} alt="Logo" className="logo"/>
       </h1>
 
       <nav>
