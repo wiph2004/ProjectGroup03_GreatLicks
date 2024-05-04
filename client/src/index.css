@@ -16,7 +16,9 @@
 html,
 body {
   min-height: 100%;
+  font-family: "ABeeZee", sans-serif;
 }
+
 
 body {
   margin: 0;
