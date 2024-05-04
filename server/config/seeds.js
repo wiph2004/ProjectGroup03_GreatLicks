@@ -21,8 +21,8 @@ db.once('open', async () => {
         'A luscious vanilla bean ice cream in a 16 oz container',
       image: 'pinticecream.jpeg',
       category: categories[0]._id,
-      price: 7.99,
-      quantity: 100
+      price: 5.50,
+      quantity: 50
     },
     {
       name: 'Vanilla Ice Cream Bar',
@@ -30,8 +30,8 @@ db.once('open', async () => {
         'Our vanilla bean ice cream in handy-dandy individually wrapped bar form. Package of 6.',
       image: 'vanilla-bar.png',
       category: categories[0]._id,
-      price: 14.99,
-      quantity: 50
+      price: 2.99,
+      quantity: 100
     },
     {
       name: 'Vanilla Ice Cream Sandwich',
@@ -39,8 +39,8 @@ db.once('open', async () => {
       description:
         'Our vanilla bean ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
       image: 'vanilla-sandwich.jpg',
-      price: 16.99,
-      quantity: 50
+      price: 3.99,
+      quantity: 100
     },
     {
       name: 'Chocolate Pint',
@@ -48,8 +48,8 @@ db.once('open', async () => {
       description:
         'A decadent Dutch chocolate ice cream in a 16 oz container',
       image: 'pinticecream.jpeg',
-      price: 7.99,
-      quantity: 100
+      price: 5.50,
+      quantity: 50
     },
     {
       name: 'Chocolate Ice Cream Bar',
@@ -57,8 +57,8 @@ db.once('open', async () => {
       description:
         'Our Dutch chocolate ice cream in handy-dandy individually wrapped bar form. Package of 6.',
       image: 'chocolateicecreambar.jpg',
-      price: 14.99,
-      quantity: 50
+      price: 2.99,
+      quantity: 100
     },
     {
       name: 'Chocolate Ice Cream Sandwich',
@@ -66,8 +66,8 @@ db.once('open', async () => {
       description:
         'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
       image: 'chocolatesandwich.JPG',
-      price: 16.99,
-      quantity: 50
+      price: 3.99,
+      quantity: 100
     },
     {
       name: 'Strawberry Pint',
@@ -75,8 +75,8 @@ db.once('open', async () => {
       description:
         'A fresh strawberry ice cream in a 16 oz container. Made with real strawberries!',
       image: 'pinticecream.jpeg',
-      price: 7.99,
-      quantity: 100
+      price: 5.50,
+      quantity: 50
     },
     {
       name: 'Strawberry Ice Cream Bar',
@@ -84,16 +84,16 @@ db.once('open', async () => {
       description:
         'Our fresh strawberry ice cream in handy-dandy individually wrapped bar form. Package of 6.',
       image: 'strawberrybar.jpeg',
-      price: 14.99,
-      quantity: 50
+      price: 2.99,
+      quantity: 100
     },
     {
       name: 'Strawberry Ice Cream Sandwich',
       category: categories[0]._id,
       description: 'Our fresh strawberry ice cream sandwiched between two graham cracker cookies. Package of 6.',
       image: 'strawberrysandwich.jpg',
-      price: 16.99,
-      quantity: 50
+      price: 3.99,
+      quantity: 100
     },
     {
       name: 'Great Licks Shirt',
@@ -110,7 +110,7 @@ db.once('open', async () => {
       description:
         'Represent Great Licks with a stylish ball cap.',
       image: 'teddy-bear.jpg',
-      price: 15.99,
+      price: 9.99,
       quantity: 100
     },
     {
@@ -119,8 +119,8 @@ db.once('open', async () => {
       description:
         'You weren\'t born with a silver spoon in your mouth, so get this one as soon as you can.',
       image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 50
+      price: 5.50,
+      quantity: 100
     }
   ]);
 

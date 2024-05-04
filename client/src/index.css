@@ -1,7 +1,7 @@
 :root {
   --primary: #18498A;
-  --secondary: #B1E1EB;
-  --tertiary: #fffb00;
+  --secondary: #0d2a4e;
+  --tertiary: #B1E1EB;
   --light: white;
   --dark: black;
   --error: rgb(228, 46, 1);
@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  background-color: var(--primary);
 }
 
 html,
@@ -19,15 +20,15 @@ body {
   font-family: "ABeeZee", sans-serif;
 }
 
-
+/* Product Description */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
+  color: var(--light);
 }
 
 h1,
@@ -36,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -69,10 +70,12 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  background-color: var(--secondary);
 }
 
+/* Title for Items */
 a {
-  color: var(--primary);
+  color: var(--light);
   text-decoration: none;
   font-weight: bold;
 }
@@ -81,14 +84,17 @@ a:hover {
   text-decoration: underline;
 }
 
+/* the nav bar */
 header {
   background: var(--primary);
 }
 
+/* the nav bar words */
 header a {
   color: var(--light);
 }
 
+/* "category" buttons */
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -99,10 +105,13 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  color: var(--light);
 }
 
 button:hover {
   opacity: .8;
+  background-color: var(--tertiary);
+  color: black;
 }
 
 button[disabled] {
@@ -110,12 +119,16 @@ button[disabled] {
   opacity: .8;
 }
 
+/* Great Licks Logo */
 img {
   max-width: 100%;
+  padding: 20px;
 }
 
+/* Cart icon */
 span[role="img"] {
   cursor: default;
+  background-color: var(--primary);
 }
 
 form {
@@ -136,6 +149,7 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+/* the whole container */
 .container {
   width: 85%;
   max-width: 1200px;
@@ -199,6 +213,7 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  background-color: var(--secondary);
 }
 
 .error-text {
