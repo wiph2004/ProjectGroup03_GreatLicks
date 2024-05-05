@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
+import Shop from './pages/Shop.jsx';
 import Signup from './pages/Signup';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         index: true, 
         element: <Home />
+      }, 
+      {
+        path: '/shop',
+        element: <Shop />
       }, {
         path: '/login',
         element: <Login />
