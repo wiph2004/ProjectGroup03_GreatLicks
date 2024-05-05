@@ -100,7 +100,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Show off your Great Licks pride with our fashionable boxy tee. Printed on Gildan shirts.',
-      image: 'plastic-horses.jpg',
+      image: 'GreatLicksT-Shirt.jpg',
       price: 18.99,
       quantity: 100
     },
@@ -109,16 +109,16 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Represent Great Licks with a stylish ball cap.',
-      image: 'teddy-bear.jpg',
+      image: 'GL Cap.jpg',
       price: 9.99,
       quantity: 100
     },
     {
-      name: 'Great Licks Silver Spoon',
+      name: 'Great Licks Ice Cream Scoop',
       category: categories[1]._id,
       description:
         'You weren\'t born with a silver spoon in your mouth, so get this one as soon as you can.',
-      image: 'alphabet-blocks.jpg',
+      image: 'IceScooper.jpg',
       price: 5.50,
       quantity: 100
     }
