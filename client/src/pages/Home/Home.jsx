@@ -1,4 +1,5 @@
 import Cart from "../../components/Cart";
+import Shop from "../Shop/Shop";
 import './Home.css';
 
 const Home = () => {
