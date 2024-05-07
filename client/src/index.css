@@ -12,6 +12,8 @@
 * {
   box-sizing: border-box;
   background-color: var(--primary);
+  margin: auto;
+  list-style: none;
 }
 
 html,
@@ -73,27 +75,6 @@ p {
   background-color: var(--secondary);
 }
 
-/* Title for Items */
-a {
-  color: var(--light);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* the nav bar */
-header {
-  background: var(--primary);
-}
-
-/* the nav bar words */
-header a {
-  color: var(--light);
-}
-
 /* "category" buttons */
 button {
   font-size: 1rem;
@@ -133,12 +114,6 @@ img {
   padding: 20px;
 }
 
-/* Cart icon */
-span[role="img"] {
-  cursor: default;
-  background-color: var(--primary);
-}
-
 form {
   width: 40%;
 }
@@ -154,7 +129,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 .25rem var(--dark);
 }
 
 /* the whole container */

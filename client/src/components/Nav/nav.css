@@ -1,3 +1,22 @@
-.img {
-    width: 20px;
-}
+/* Title for Items */
+a {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* the nav bar */
+  header {
+    background: var(--primary);
+  }
+  
+  /* the nav bar words */
+  header a {
+    color: var(--light);
+  }
