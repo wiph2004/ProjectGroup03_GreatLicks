@@ -50,6 +50,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: white;
 }
 
 h3 {
@@ -83,9 +84,17 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 4px;
   background-color: var(--secondary);
   color: var(--light);
+}
+
+.bootbutton {
+  color: #0d2a4e;
+}
+
+.ui.container.ui.blue.buttons {
+  margin: 4px!;
 }
 
 button:hover {
@@ -185,9 +194,24 @@ input:focus {
 }
 
 .card {
+  margin: 0,2,0,0;
   width: 25%;
   text-align: center;
   background-color: var(--secondary);
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+
+.align {
+  align-items: flex-end;
 }
 
 .error-text {
