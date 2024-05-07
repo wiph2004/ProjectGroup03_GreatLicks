@@ -19,7 +19,7 @@ db.once('open', async () => {
       name: 'Vanilla Pint',
       description:
         'A luscious vanilla bean ice cream in a 16 oz container',
-      image: 'pinticecream.jpeg',
+      image: 'pinticecream.jpg',
       category: categories[0]._id,
       price: 5.50,
       quantity: 50
@@ -28,7 +28,7 @@ db.once('open', async () => {
       name: 'Vanilla Ice Cream Bar',
       description:
         'Our vanilla bean ice cream in handy-dandy individually wrapped bar form. Package of 6.',
-      image: 'vanilla-bar.png',
+      image: 'vanilla-bar.jpg',
       category: categories[0]._id,
       price: 2.99,
       quantity: 100
@@ -47,7 +47,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A decadent Dutch chocolate ice cream in a 16 oz container',
-      image: 'pinticecream.jpeg',
+      image: 'pinticecream.jpg',
       price: 5.50,
       quantity: 50
     },
@@ -65,7 +65,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
-      image: 'chocolatesandwich.JPG',
+      image: 'chocolatesandwich.jpg',
       price: 3.99,
       quantity: 100
     },
@@ -74,7 +74,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A fresh strawberry ice cream in a 16 oz container. Made with real strawberries!',
-      image: 'pinticecream.jpeg',
+      image: 'pinticecream.jpg',
       price: 5.50,
       quantity: 50
     },
@@ -83,7 +83,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our fresh strawberry ice cream in handy-dandy individually wrapped bar form. Package of 6.',
-      image: 'strawberrybar.jpeg',
+      image: 'strawberrybar.jpg',
       price: 2.99,
       quantity: 100
     },

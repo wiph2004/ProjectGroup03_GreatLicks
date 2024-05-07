@@ -1,6 +1,6 @@
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Logo200.png";
+import logo from "../../assets/Logo100.png";
 import "./nav.css"
 
 function Nav() {
@@ -25,6 +25,16 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
+          <li className="mx-1">
+            <Link to="/">
+              Home
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/shop">
+              Shop
+            </Link>
+          </li>
           <li className="mx-1">
             <Link to="/signup">
               Signup
