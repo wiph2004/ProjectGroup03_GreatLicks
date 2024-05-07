@@ -1,7 +1,5 @@
 import { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
 import { useStoreContext } from '../../utils/GlobalState';
 import {
   UPDATE_CATEGORIES,
@@ -48,18 +46,18 @@ function CategoryMenu() {
       <div>
       <h2>Choose a Category:</h2>
       {categories.map((item) => (
-        <Button variant="info"
+        <button 
           key={item._id}
           onClick={() => {
             handleClick(item._id);
           }}
         >
           {item.name}
-        </Button>
+        </button>
       ))}
-      <Button variant="info" onClick={() => { handleClick('') }}>
+      <button  onClick={() => { handleClick('') }}>
         All
-      </Button>
+      </button>
       </div>
     </div>
   );
