@@ -14,13 +14,13 @@ const Home = () => {
       <div className="carousel">
             <Carousel>
                 <div>
-                    <img src="../public/images/crop-hands-putting-ice-cream-cone.jpg" />
+                    <img src="../images/dessert-delicious-ice-cream-table.jpg" />
                 </div>
                 <div>
-                    <img src="../public/images/dessert-delicious-ice-cream-table.jpg" />
+                    <img src="../images/crop-hands-putting-ice-cream-cone.jpg" />
                 </div>
                 <div>
-                    <img src="../public/images/woman-having-fun-food-festival.jpg" />
+                    <img src="../images/woman-having-fun-food-festival.jpg" />
                 </div>
             </Carousel>
           </div>
