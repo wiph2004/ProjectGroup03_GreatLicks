@@ -65,7 +65,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
-      image: 'chocolatesandwich.jpg',
+      image: 'chocolatesandwich.JPG',
       price: 3.99,
       quantity: 100
     },
