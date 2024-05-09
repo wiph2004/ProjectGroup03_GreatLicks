@@ -6,7 +6,6 @@ import './Home.css';
 import Cart from "../../components/Cart";
 import Shop from "../Shop/Shop";
 
-
 const Home = () => {
   return (
     <div className="container">
