@@ -12,15 +12,16 @@ const Home = () => {
     <div className="container">
       <Cart />
       <div className="carousel">
-            <Carousel>
+
+            <Carousel width="80%" infiniteLoop="true" showThumbs={false}>
                 <div>
-                    <img src="../images/dessert-delicious-ice-cream-table.jpg" />
+                    <img src="../images/welcome.png" />
                 </div>
                 <div>
-                    <img src="../images/crop-hands-putting-ice-cream-cone.jpg" />
+                    <img src="../images/scoop.png" />
                 </div>
                 <div>
-                    <img src="../images/woman-having-fun-food-festival.jpg" />
+                    <img src="../images/smile.png" />
                 </div>
             </Carousel>
           </div>
