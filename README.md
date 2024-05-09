@@ -1,3 +1,9 @@
+# Great Licks - Coldest Ice Cream and Ice Cream merchandise delivery
+
+## Location
+
+https://projectgroup03-greatlicks.onrender.com/
+
 ## Stock Photo Credit
 
 ## Store
