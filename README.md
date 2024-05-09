@@ -1,3 +1,41 @@
+# Great Licks Ice Cream Delivery
+
+## Description
+
+In this project, we made use of everything we have learned in class so far to build a storefront for a hypothetical online ice cream shop. This wedsite uses React to create a responsive and dynamic user interface, Stripe to accept payments, as well as vite, graphQL, and JWT, which allow users to create accounts, stay logged in, and shop with ease.
+
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+To install this site on your local device, download the code from the repository
+
+## Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
+
+## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well.
+
+## License
+
+
 ## Stock Photo Credit
 
 <a href="https://www.freepik.com/free-photo/woman-having-fun-food-festival_29012568.htm#fromView=search&page=1&position=0&uuid=34aac218-0a6b-4c8b-b435-bb42f9de6c31">Image by freepik</a>
