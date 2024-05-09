@@ -12,6 +12,7 @@ const Home = () => {
     <div className="container">
       <Cart />
       <div className="carousel">
+
             <Carousel width="80%" infiniteLoop="true" showThumbs={false}>
                 <div>
                     <img src="../images/welcome.png" />
