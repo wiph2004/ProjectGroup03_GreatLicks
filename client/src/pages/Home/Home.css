@@ -10,7 +10,7 @@
   .flex-end {
     justify-content: flex-end;
   }
-  
+
   .mx-1 {
     margin-right: var(--spacing-one);
     margin-left: var(--spacing-one);
@@ -55,4 +55,31 @@
     width: 25%;
     text-align: center;
     background-color: var(--secondary);
+  }
+
+  #scroll-container {
+    border: 3px solid var(--tertiary);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #scroll-text {
+    /* animation properties */
+     color: var(--light);
+    -moz-animation: scroll-text 15s linear infinite;
+    -webkit-animation: scroll-text 15s linear infinite;
+    /* animation: my-animation 15s linear infinite; */
+    animation: scroll-text 15s infinite linear;
+  }
+
+  @keyframes scroll-text {
+    from {
+      -moz-transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    } to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
   }
