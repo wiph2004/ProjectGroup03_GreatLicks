@@ -1,85 +1,40 @@
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .space-between {
-    justify-content: space-between;
-  }
-  
-  .flex-end {
-    justify-content: flex-end;
-  }
+*{
+  background-color: var(--primary);
+}
 
-  .mx-1 {
-    margin-right: var(--spacing-one);
-    margin-left: var(--spacing-one);
-  }
-  
-  .mx-2 {
-    margin-right: var(--spacing-two);
-    margin-left: var(--spacing-two);
-  }
-  
-  .my-1 {
-    margin-top: var(--spacing-one);
-    margin-bottom: var(--spacing-one);
-  }
-  
-  .my-2 {
-    margin-top: var(--spacing-two);
-    margin-bottom: var(--spacing-two);
-  }
-  
-  .px-1 {
-    padding-right: var(--spacing-one);
-    padding-left: var(--spacing-one);
-  }
-  
-  .px-2 {
-    padding-right: var(--spacing-two);
-    padding-left: var(--spacing-two);
-  }
-  
-  .py-1 {
-    padding-top: var(--spacing-one);
-    padding-bottom: var(--spacing-one);
-  }
-  
-  .py-2 {
-    padding-top: var(--spacing-two);
-    padding-bottom: var(--spacing-two);
-  }
-  
-  .card {
-    width: 25%;
-    text-align: center;
-    background-color: var(--secondary);
-  }
+#scroll-container {
+  border: 3px solid var(--tertiary);
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-  #scroll-container {
-    border: 3px solid var(--tertiary);
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  #scroll-text {
-    /* animation properties */
-     color: var(--light);
-    -moz-animation: scroll-text 15s linear infinite;
-    -webkit-animation: scroll-text 15s linear infinite;
-    /* animation: my-animation 15s linear infinite; */
-    animation: scroll-text 15s infinite linear;
-  }
+#scroll-text {
+  /* animation properties */
+    color: var(--light);
+  -moz-animation: scroll-text 15s linear infinite;
+  -webkit-animation: scroll-text 15s linear infinite;
+  /* animation: my-animation 15s linear infinite; */
+  animation: scroll-text 15s infinite linear;
+}
 
-  @keyframes scroll-text {
-    from {
-      -moz-transform: translateX(0%);
-      -webkit-transform: translateX(0%);
-      transform: translateX(0%);
-    } to {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+@keyframes scroll-text {
+  from {
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  } to {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   }
-  }
+}
+
+.bg {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
