@@ -19,7 +19,7 @@ db.once('open', async () => {
       name: 'Vanilla Pint',
       description:
         'A luscious vanilla bean ice cream in a 16 oz container',
-      image: 'pinticecream.jpg',
+      image: 'GLPints.jpg',
       category: categories[0]._id,
       price: 5.50,
       quantity: 50
@@ -47,7 +47,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A decadent Dutch chocolate ice cream in a 16 oz container',
-      image: 'pinticecream.jpg',
+      image: 'GLPints.jpg',
       price: 5.50,
       quantity: 50
     },
@@ -65,7 +65,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Our Dutch chocolate ice cream sandwiched between two chocolate wafer cookies. Package of 6.',
-      image: 'chocolatesandwich.JPG',
+      image: 'chocolatesandwich.jpg',
       price: 3.99,
       quantity: 100
     },
@@ -74,7 +74,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'A fresh strawberry ice cream in a 16 oz container. Made with real strawberries!',
-      image: 'pinticecream.jpg',
+      image: 'GLPints.jpg',
       price: 5.50,
       quantity: 50
     },
