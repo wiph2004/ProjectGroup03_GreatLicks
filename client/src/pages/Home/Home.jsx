@@ -3,7 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './Home.css';
 import Cart from "../../components/Cart";
-import bg from "../../assets/SnowBgTransparent.png"
 
 const Home = () => {
   return (
@@ -25,7 +24,6 @@ const Home = () => {
               <img src="../images/smile.png" />
           </div>
       </Carousel>
-      <img src={bg} alt="Landing" className="bg"/>
     </div>
   );
 };
