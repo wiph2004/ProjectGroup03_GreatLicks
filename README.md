@@ -1,5 +1,5 @@
-## In Development on 5.6
-![P3 - 5 6 Update](https://github.com/wiph2004/ProjectGroup03_GreatLicks/assets/46942706/3988c050-d530-4236-be97-49fdf7f144d8)
+## In Development on Landing Page on 5.12
+![Landing page](https://github.com/wiph2004/ProjectGroup03_GreatLicks/assets/46942706/17cbc897-8d0e-48db-b0b2-113cda684d2c)
 
 ## Store
-![P3 - 5 6 Store Update](https://github.com/wiph2004/ProjectGroup03_GreatLicks/assets/46942706/063905cd-7720-438a-bae8-aeaa9043f5db)
+![Shop page](https://github.com/wiph2004/ProjectGroup03_GreatLicks/assets/46942706/b516efa8-db9e-43c4-a605-e0007288a869)
