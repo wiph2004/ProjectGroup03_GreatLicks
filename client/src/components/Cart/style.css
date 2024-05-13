@@ -51,10 +51,6 @@
   color: var(--primary);
 }
 
-.cart-closed:hover {
-  transform: rotate(8deg);
-}
-
 .cart img {
   width: 70px;
   margin-right: 1rem;
@@ -64,6 +60,10 @@
   width: 50px;
   padding: 0;
   margin: 0 .5rem 1rem 0;
+}
+
+span{
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {

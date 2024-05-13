@@ -11,16 +11,7 @@ a:hover {
   border-radius: 5px;
 }
 
-/* the nav bar */
-header {
-  background: var(--primary);
-}
-
-  /* the nav bar words */
+/* the nav bar words */
 header a {
   color: var(--light);
-}
-
-span{
-  background-color: white;
 }

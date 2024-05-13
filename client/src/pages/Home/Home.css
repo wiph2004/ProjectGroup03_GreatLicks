@@ -1,11 +1,12 @@
 *{
-  background-color: var(--primary);
+  /*background-color: var(--primary);*/
 }
 
 #scroll-container {
   border: 3px solid var(--tertiary);
   border-radius: 5px;
   overflow: hidden;
+  background-color: var(--primary);
 }
 
 #scroll-text {
@@ -37,4 +38,5 @@
   object-fit: cover;
   width: auto;
   height: auto;
+  background-color: var(--primary);
 }
